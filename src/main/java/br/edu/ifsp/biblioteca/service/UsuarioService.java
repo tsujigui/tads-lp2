@@ -2,7 +2,6 @@ package br.edu.ifsp.biblioteca.service;
 
 import br.edu.ifsp.biblioteca.domain.Usuario;
 import br.edu.ifsp.biblioteca.exception.RegraDeNegocioException;
-import br.edu.ifsp.biblioteca.repository.ILivroRepository;
 import br.edu.ifsp.biblioteca.repository.IUsuarioRepository;
 import org.springframework.stereotype.Service;
 

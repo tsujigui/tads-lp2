@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 @Repository
-@Profile("memoria") //SABOUUUUR UNDAIA
+@Profile("memoria")
 public class LivroRepositoryEmMemoria implements ILivroRepository {
 
     private final Map<Long, Livro> livros = new HashMap<Long, Livro>();

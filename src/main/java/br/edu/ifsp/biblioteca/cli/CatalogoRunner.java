@@ -12,16 +12,17 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component //ta vendo aquela lua que brilha la no ceu?
+@Component
 public class CatalogoRunner implements CommandLineRunner {
 
     private final LivroService livroService;
     private final UsuarioService usuarioService;
 
-    public CatalogoRunner(LivroService livroService, UsuarioService usuarioService) {
-
+    public CatalogoRunner(
+        LivroService livroService,
+        UsuarioService usuarioService
+    ) {
         this.livroService = livroService;
-
         this.usuarioService = usuarioService;
     }
 
